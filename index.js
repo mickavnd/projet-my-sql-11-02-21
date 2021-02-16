@@ -1,7 +1,18 @@
 const express = require('express')
 const app = express()
+const path =require('path')
+
+//EJS
+app.set('view enigine','ejs');
+//dossier static (public)
+app.use(express.static(path.join(__dirname,'public')));
+
+//routes
+const articles =require('./routes/articlesRoute')
 
  //controller
+ app.use('/liste-des-articles',articles)
+
 app.get('/', function (req, res) {
     res.send('Hello ')
 })

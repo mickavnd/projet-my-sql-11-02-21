@@ -1,0 +1,9 @@
+"filename", "language", "Markdown", "JavaScript", "JSON", "SQL", "comment", "blank", "total"
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\README.md", "Markdown", 3, 0, 0, 0, 0, 0, 3
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\controller\articlesController.js", "JavaScript", 0, 3, 0, 0, 0, 1, 4
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\data.sql", "SQL", 0, 0, 0, 19, 6, 6, 31
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\index.js", "JavaScript", 0, 13, 0, 0, 4, 6, 23
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\package-lock.json", "JSON", 0, 0, 1299, 0, 0, 1, 1300
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\package.json", "JSON", 0, 0, 24, 0, 0, 1, 25
+"c:\Users\micka\Documents\projet-my-sql-11-02-21\routes\articlesRoute.js", "JavaScript", 0, 3, 0, 0, 1, 1, 5
+"Total", "-", 3, 19, 1323, 19, 11, 16, 1391
