@@ -26,6 +26,9 @@ db.connect(
 //variable global querysql
 global.querysql=util.promisify(db.query).bind(db)
 
+//middleware -body parser
+app.use(express.json())
+app.use(express.urlencoded({extended: false}))
 
 //EJS
 app.set('view engine','ejs');
