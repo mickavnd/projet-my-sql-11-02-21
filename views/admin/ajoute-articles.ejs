@@ -1,0 +1,39 @@
+<%- include('partials-admin/header-admin.ejs')%>
+<%- include('partials-admin/side-bar.ejs')%>
+
+  <form action="/tableau-de-bord/ajoute-articles" method="POST">
+
+    <H1>ajoute article</H1>
+    <section class="ajoute">
+    
+        <div class="ajout">
+            <label for="">name</label>
+      <input type="text" name="titre" id=""name="titre">  
+    </div>
+    
+    <div class="ajout">
+     <select name="auteurId" id="">
+         <option selected>choisir un auteur</option>
+        <% auteur.forEach(function(auteur){%>
+            <option value="<%=auteur.auteurId %>"> <%=auteur.nom %> </option>
+
+
+         <%});%>
+     </select>
+    
+      <div class="ajout">
+          <label for="">description</label>
+        <input type="text"name="description">  
+      </div>
+      
+      <button type="submit"> modifier</button>
+    
+    </section>
+    
+
+
+  </form>
+
+
+
+<%- include('partials-admin/footer-admin')%>

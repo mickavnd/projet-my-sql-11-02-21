@@ -11242,3 +11242,26 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+ 
+.btna{
+   width: 10px;
+   height: 5px;
+   border: 1px  --blue solid ;
+}
+
+.ajoute{
+
+  display: flexbox ;
+  flex-direction: column;
+   border: 1px black solid;
+    height:  300px;
+    align-content: space-between;
+
+
+
+}
+
+.ajout{
+
+  margin-top: 30px;
+}

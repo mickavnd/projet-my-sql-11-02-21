@@ -1,3 +1,7 @@
+const { query } = require("express")
+
 exports.getArticlesAdmin= async (req,res)=>{
-     res.render('admin/admin-liste-article')
+    const articleAdmin= await querysql('select titre,image,auteurId,description from article')
+    //console.log(articleAdmin);
+     res.render('admin/admin-liste-article',{articles:articleAdmin})
 }
