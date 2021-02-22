@@ -7,3 +7,4 @@ router.get('/',articlesController.getArticlesPage)
 router.get('/:id',articlesController.getarticle)
 
 module.exports=router
+

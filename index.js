@@ -37,9 +37,15 @@ app.use(express.static(path.join(__dirname,'public')));
 
 //routes
 const articles =require('./routes/articlesRoute')
+const auteur = require('./routes/auteurRoute')
+const tableauDeBord=require('./routes/tableauDebordRoute')
 
  //controller
 app.use('/liste-des-articles',articles)
+
+app.use('/liste-des-auteurs',auteur)
+
+app.use('/tableau-de-bord',tableauDeBord)
 
 app.get('/', function (req, res) {
     res.send('Hello ')
