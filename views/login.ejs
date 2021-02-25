@@ -1,0 +1,42 @@
+<%- include('partials/header.ejs')%>
+
+
+
+<% if (message.length>0){ %>
+
+        <div><%=message%></div>
+    <%}
+    %>
+
+<form action="/auth/login" method="POST">
+
+
+    <section class= pageL> 
+    <h1>page connexion </h1>
+    
+
+<div class="login">
+
+
+<div class="input">
+    <label> email</label>
+
+    <input type="email" name="email">
+
+</div>
+<div class="input">
+    <label> mot de passe</label>
+
+    <input type="password" name="password">
+</div>
+
+
+
+
+</div>
+
+<button type="submit"> connexion</button>
+</form>
+
+
+</section>

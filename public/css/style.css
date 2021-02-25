@@ -1,0 +1,16 @@
+
+.pageL{
+    text-align: center;
+}
+
+.login{
+    border: 1px black solid;
+    text-align: center;
+    height: 400px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.input{
+    margin-left: 10x;
+}

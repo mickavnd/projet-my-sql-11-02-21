@@ -2,7 +2,7 @@ const { query } = require("express")
 
 exports.getArticlesPage=async(req,res)=>{
         const listeDesArticles= await querysql('select *from article')
-      //  console.log('articles:', listeDesArticles[0].titre);
+      console.log( listeDesArticles[0].titre);
         res.render('articles',{articles:listeDesArticles})
 }
 //get affiche un article

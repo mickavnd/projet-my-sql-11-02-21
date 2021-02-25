@@ -1,0 +1,63 @@
+<%- include('partials/header.ejs')%>
+
+<section>
+    <h1>page inscri</h1>
+<% if (message.length>0){ %>
+
+    <div><%=message%></div>
+<%}
+%>
+    <form action="/auth/logup" method="POST">
+        <div class="login">
+
+
+            <div class="input">
+                <label> name</label>
+
+                <input type="text" name="firstname">
+
+            </div>
+            <div class="input">
+                <label> lastname</label>
+
+                <input type="text" name="lastname">
+
+            </div>
+            <div class="input">
+                <label> email</label>
+
+                <input type="email" name="email">
+            </div>
+
+            <div class="input">
+                <label> mot de passe</label>
+
+                <input type="password" name="password">
+            </div>
+
+
+
+        
+    <button type="submit"> inscription</button>
+
+        </div>
+
+
+    </form>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
